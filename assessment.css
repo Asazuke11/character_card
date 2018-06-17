@@ -1,0 +1,58 @@
+body {
+  background-color: #ffffff;
+
+  /*** センター配置 ***/
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(167, 47, 77);
+  /*** googlefont ***/
+  font-family: 'Kokoro';
+}
+
+#card {
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 2px 2px 4px 2px gray;
+  width: 400px;
+  height: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px dashed #ff9900;
+  background-image: url('images/p0043_m.jpg');
+}
+
+.charactercard {
+  table-layout: fixed;
+  font-family: 'Fredoka One', cursive;
+}
+
+#title {
+  background-color: rgb(191, 219, 255);
+}
+
+.bg {
+  background-color: azure;
+  border-radius: 3px 3px 3px 3px;
+}
+
+#img {
+  border: 1px dashed rgb(228, 165, 94);
+  border-radius: 3px 3px 3px 3px;
+  background-image: url('');
+  background-color: snow;
+  background-size: cover;
+}
+
+#name {
+  text-align: left;
+}
+
+button {
+  padding: 5px 20px;
+  background-color: rgb(179, 179, 179);
+  border-color: red;
+}
+
+input {
+  height: 20px;
+}
