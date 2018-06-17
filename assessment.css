@@ -43,7 +43,7 @@ body {
   background-size: cover;
 }
 
-.left {
+#tit,name {
   text-align: left;
 }
 
