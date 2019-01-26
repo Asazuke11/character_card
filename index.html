@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
 
+<head>
+  <meta charset="UTF-8">
+  <title>簡単キャラクリツール</title>
+
+  <!-- cssの読み込み　下二つはgooglefont　-->
+  <link rel="stylesheet" href="assessment.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dokdo|Titan+One" rel="stylesheet">
+
+</head>
+
+<body>
+  <h4>キャラクターメイキング</h4>
+  <p>
+    <font size="2">
+      名前を入力するだけで簡単異世界キャラクター作り！
+    </font>
+  </p>
+  <!----------------------- 
+    名前記入欄とボタン配置
+    ------------------------>
+  <hr> &nbsp;&nbsp;
+  <input type="text" id="user-name" size="15" maxlength="7">
+  <input type="radio" id="male">男性
+  <input type="radio" id="female">女性 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button id="assessment">作成</button>
+  <hr>
+
+  <!---------------------------------------------------
+  ・<div id="card">　冒険者カードの大きさ設定
+    @ #card: 400 x 220 px ,中央揃え,背景画像配置
+    @ .charactercard:table:fixed & googlefont' Fredoka One' 設定
+    @ .bg :バックグランドを白色に
+    @ #img ：キャラクター画像配置場所
+    @ #name,gender,id_Number,strength,Intellect,
+      Endurance,Magical,agile,Fortune 
+      （各パラメータに割り当てたid）
+  ---------------------------------------------------->
+  <div id="card">
+
+    <table border="1" width="400px" class="charactercard">
+      <tr>
+        <th width="40px" height="24px" colspan="3" id="tit">&nbsp;☆冒険者カード</th>
+        <th width="40px" colspan="3" rowspan="5" id="img"></th>
+      </tr>
+      <tr>
+        <th width="40px" height="24px">名前</th>
+        <th colspan="2" class="bg" id="name"></th>
+
+      </tr>
+      <tr>
+        <th>性別</th>
+        <th class="bg" id="gender">
+        </th>
+
+      </tr>
+      <tr>
+        <th height="24px">ID</th>
+        <th class="bg" id="id_Number"></th>
+      </tr>
+      <tr></tr>
+
+      <tr>
+        <th width="40px">筋力</th>
+        <th width="40" class="bg" id="strength"></th>
+        <th></th>
+        <th width="40px">知力</th>
+        <th width="40" class="bg" id="Intellect"></th>
+        <th></th>
+      </tr>
+      <tr>
+        <th width="40px">耐久</th>
+        <th width="40" class="bg" id="Endurance"></th>
+        <th></th>
+        <th width="40px">魔力</th>
+        <th width="40" class="bg" id="Magical"></th>
+        <th></th>
+      </tr>
+
+      <tr>
+        <th width="40px">敏捷</th>
+        <th width="40" class="bg" id="agile"></th>
+        <th></th>
+        <th width="40px">幸運</th>
+        <th width="40" class="bg" id="Fortune"></th>
+        <th></th>
+      </tr>
+    </table>
+  </div>
+  <hr>
+  <p>
+    <font size="2">
+      <br> お借りした素材
+      <br> ジュエルセイバーFREE
+
+      <br> http://www.jewel-s.jp/download/
+    </font>
+  </p>
+
+
+
+  <script src="assessment.js "></script>
+
+</body>
+
+</html>
