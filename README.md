@@ -1,5 +1,5 @@
 ## TRPGのキャラクターカードぽいもの  
-N予備校のいいところ診断を元に発展させてみたアプリです。  
+N予備校のいいところ診断を元に改造してみたアプリです。  
   
 GithubPages  
 https://asazuke11.github.io/character_card/
@@ -8,7 +8,7 @@ https://asazuke11.github.io/character_card/
 ・能力値はランダム
 ```
 
-お借りした素材  
-====
+##お借りした素材  
+===
 ジュエルセイバー  
 http://www.jewel-s.jp/download/
