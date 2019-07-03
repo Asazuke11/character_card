@@ -8,8 +8,10 @@ https://asazuke11.github.io/character_card/
 ・能力値はランダム
 ```
 
-### お借りした素材  
-
-ジュエルセイバー  
+お借りした素材  
+---  
+```
+ジュエルセイバー
+```
 http://www.jewel-s.jp/download/  
 https://twitter.com/jewelsavior
