@@ -10,6 +10,6 @@ https://asazuke11.github.io/character_card/
 
 お借りした素材  
 ---
-ジュエルセイバー
+ジュエルセイバー  
 http://www.jewel-s.jp/download/  
 https://twitter.com/jewelsavior
